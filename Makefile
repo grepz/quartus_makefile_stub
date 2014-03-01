@@ -4,12 +4,14 @@ FAMILY    = "Cyclone IV E"
 BOARDFILE = PINS
 MOD       = LED_4
 
-QC   = quartus_sh
-QP   = quartus_pgm
-QM   = quartus_map
-QF   = quartus_fit
-QA   = quartus_asm
-QS   = quartus_sta
+QPATH = ~/altera/13.1/quartus/bin
+
+QC   = $(QPATH)/quartus_sh
+QP   = $(QPATH)/quartus_pgm
+QM   = $(QPATH)/quartus_map
+QF   = $(QPATH)/quartus_fit
+QA   = $(QPATH)/quartus_asm
+QS   = $(QPATH)/quartus_sta
 ECHO = echo
 Q   ?= @
 

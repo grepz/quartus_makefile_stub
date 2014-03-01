@@ -1,0 +1,12 @@
+db
+incremental_db
+*.chg
+*.log
+*.sof
+*.rpt
+*.qsf
+*.qpf
+*.summary
+*.smsg
+*.pin
+*.jdi
