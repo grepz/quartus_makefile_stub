@@ -1,0 +1,6 @@
+set_location_assignment PIN_T12 -to led[0]
+set_location_assignment PIN_C11 -to led[1]
+set_location_assignment PIN_B10 -to led[2]
+set_location_assignment PIN_B7 -to led[3]
+set_location_assignment PIN_E16 -to clk
+set_location_assignment PIN_B16 -to nrst
