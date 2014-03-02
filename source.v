@@ -1,4 +1,6 @@
-module LED_4(input 	     nrst,
+// Led blinking just to fill empty space
+
+module ModName(input 	     nrst,
 	     input 	     clk,
 	     inout reg [3:0] led);
    reg [31:0] counter;

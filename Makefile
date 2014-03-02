@@ -1,8 +1,8 @@
-PRODUCT   = test_led
+PRODUCT   = stub
 PART      = EP4CE10F17C8
 FAMILY    = "Cyclone IV E"
 BOARDFILE = PINS
-MOD       = LED_4
+MOD       = ModName
 
 QPATH = ~/altera/13.1/quartus/bin
 
@@ -22,7 +22,7 @@ QPFLAGS =
 QMFLAGS = --read_settings_files=on $(addprefix --source=,$(SRCS))
 QFFLAGS = --part=$(PART) --read_settings_files=on
 
-SRCS = LED_4.v
+SRCS = source.v
 ASIGN = $(PRODUCT).qsf $(PRODUCT).qpf
 
 map: smart.log $(PRODUCT).map.rpt
