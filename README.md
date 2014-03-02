@@ -15,3 +15,8 @@ Simple Quartus Makefile stub
 ## Edit PINS file
 
 * Assign pin's and global variables according to your project needs
+
+## Usecase
+
+* `make all' to build a project
+* `make prog' to program FPGA

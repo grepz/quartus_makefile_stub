@@ -26,10 +26,10 @@ module ModName(input 	     nrst,
 	led <= 4'd0;
       else
 	case (i)
-	  0:	begin led <= 4'b1110; i<=i+1; end
-	  1:	begin led <= 4'b1101; i<=i+1; end
-	  2:	begin led <= 4'b1011; i<=i+1; end
-	  3:	begin led <= 4'b0111; i<=0;   end
+	  0:	begin led <= 4'b1110; i <= i + 8'd1; end
+	  1:	begin led <= 4'b1101; i <= i + 8'd1; end
+	  2:	begin led <= 4'b1011; i <= i + 8'd1; end
+	  3:	begin led <= 4'b0111; i <= 8'd0;     end
 	endcase
 
    end
