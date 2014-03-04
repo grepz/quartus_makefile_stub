@@ -7,8 +7,10 @@ Simple Quartus Makefile stub
 ## Edit Makefile
 
 * Change =QPATH= to the path Quartus is installed in your system
-* If needed you can also change individual Quartus binaries locations
-* Change =MOD= variable, set top level module name
+* Change =FAMILY= according to your needs
+* Change =PART= according to your needs
+* If needed you can also change individual Quartus binaries locations(=QC=,=QP=, etc)
+* Change =MOD= variable, set top level module name for the project
 * Change =PRODUCT= variable, set suitable product name
 * Add/change source files assigned to =SRCS= variable
 
